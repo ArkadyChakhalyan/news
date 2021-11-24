@@ -1,0 +1,31 @@
+.logo {
+    width: 257px;
+    height: 48px;
+    background-image: url(../../img/68747470733a2f2f7374617469632e74696c646163646e2e636f6d2f74696c64333633382d333333382d343133362d623033382d3331333133323330363433382f47726f75705f3634302e737667.svg);
+    background-size: 257px, 48px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    flex-grow:1;
+    padding: 0 32px;
+}
+
+
+.header {
+    background: rgb(202, 202, 202);
+    width: 100%;
+    padding: 8px;
+    user-select: none;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
