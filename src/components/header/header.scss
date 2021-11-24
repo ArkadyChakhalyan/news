@@ -15,8 +15,12 @@
     padding: 0;
     flex-grow:1;
     padding: 0 32px;
+    
+    & button {
+        -webkit-appearance: none;
+        color:#fff !important
+    }
 }
-
 
 .header {
     background: rgb(202, 202, 202);
@@ -28,4 +32,15 @@
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .menu {
+        margin-top: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
 }
